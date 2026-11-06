@@ -1,0 +1,13 @@
+AL DÍA — App de pagos para iPhone
+
+CONTENIDO: index.html, manifest.webmanifest, sw.js y 3 iconos PNG.
+
+1. GitHub > New repository > nombre: al-dia-pagos > Public > Create repository.
+2. Dentro del repositorio: Add file > Upload files. Sube index.html, manifest.webmanifest, sw.js, icon-180.png, icon-192.png, icon-512.png (descomprimiendo este ZIP).
+3. Pulsa Commit changes.
+4. Settings > Pages > Source: Deploy from a branch > Branch: main > Folder: /(root) > Save.
+5. En Pages verás una dirección similar a https://TU-USUARIO.github.io/al-dia-pagos/
+6. Abre ESA dirección en Safari del iPhone > Compartir > Añadir a pantalla de inicio > Activar Abrir como app web > Añadir.
+7. Registra un valor de prueba, cierra la app y vuelve a abrir para comprobar persistencia.
+
+IMPORTANTE: No publiques datos personales ni recibos dentro de los archivos que subes a GitHub. La información que escribas usando la app se guarda SOLO en el dispositivo y no se sincroniza con GitHub ni con otros equipos. Haz copias de seguridad JSON periódicas; borrar los datos del navegador o la app puede eliminar los registros. Un archivo abierto desde WhatsApp tiene un almacenamiento diferente: exporta un JSON desde la app anterior e impórtalo en la app nueva si tienes acceso a esos datos.
